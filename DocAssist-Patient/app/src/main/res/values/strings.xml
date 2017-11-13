@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DocAssist:Patient</string>
+    <string name="main">Home</string>
+    <string name="update_your_details">Update Your Details</string>
+    <string name="check_your_medical_history">Check Your Medical History</string>
+    <string name="report_details">Report Details</string>
+    <string name="logout">LOGOUT</string>
+    <string name="patient_welcome">Hello, User</string>
+    <string name="registration_form">REGISTRATION FORM</string>
+</resources>

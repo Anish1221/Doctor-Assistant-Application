@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medi.HomeScreenPatient"
+    android:background="@drawable/greish"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/welcome_Patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:text="Login Successful."
+            android:textColor="#ffffff"
+            android:textColorHighlight="#fcfbfb"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="gravity"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageView
+            android:id="@+id/imageViewLoginScreen"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/latest"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="41dp" />
+
+    <Button
+    android:id="@+id/check_your_medical_history"
+    style="@style/ButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="check_your_medical_history"
+    android:text="@string/check_your_medical_history"
+    android:textColor="#fffdfe"
+    android:background="@drawable/custombutton"
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+    <Button
+            android:id="@+id/update_your_details"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="update_your_details"
+            android:text="@string/update_your_details"
+            android:textColor="#fffdfe"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/report_details"
+        android:id="@+id/buttonReportDetails"
+        android:background="@drawable/buttonnew"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp" />
+
+        <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="logout"
+        android:text="@string/logout"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#5100ff"
+        android:background="@drawable/buttonnew"
+        android:textStyle="bold"
+            android:textSize="16sp"
+        android:layout_marginTop="25dp" android:layout_gravity="center_horizontal" android:layout_marginBottom="15dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+
+</LinearLayout>

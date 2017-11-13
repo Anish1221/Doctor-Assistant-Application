@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DocAssist:Doctor</string>
+
+    <string name="logout">LOGOUT</string>
+    <string name="admission_no">Admission No.</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="choose_report">Choose Report</string>
+    <string name="details_of_patient">Details Of Patient</string>
+
+</resources>
